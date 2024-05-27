@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: #cdeefa;
+    background-color: #c0d7eb;
 }
 
 .container {
@@ -25,23 +25,21 @@ body {
     justify-content: flex-start;
     align-items: center;
     border-radius: 25px;
-    width: 250px;
-    height: 450px;
+    width: 300px;
+    height: 475px;
     background-color: white;
     box-sizing: border-box;
     -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.26);
-    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.09);
 
 }
 
 .qr-box img {
     order: 1;
-    height: 30vh;
+    height: 275px;
     width: auto;
     border-radius: 25px;
-    padding: 10px;
-    border: 10px;
-    margin: 10px;
+    padding-top: 10px;
 }
 
 .header {
@@ -50,18 +48,22 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     font-size: large;
-    padding: 10px;
-    color: #0000
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #09223f
 }
 
 .instructions {
     order: 3;
-    padding: 5px;
-    border: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #979797;
+    font-weight: lighter;
     text-align: center;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .attribution {
     order: 4;
+    text-align: center;
 }
